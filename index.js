@@ -7,7 +7,7 @@
    .then(data=>{
     console.log(data)
     document.getElementById("result").innerHTML = `
-    <a target="_blank" href="https:www.github.com/${search}">"<img src="${data.avatar_url}"/></a>
+    <a target="_blank" href="https://www.github.com/${search}">"<img src="${data.avatar_url}"/></a>
      `
      //  document.getElementById("image-container").innerHTML = `Name :${data.avatar_url}`
      document.getElementById("name").innerHTML = `Name :${data.name}`
